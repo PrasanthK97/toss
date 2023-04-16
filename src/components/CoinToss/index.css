@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.bg-main {
+  background-image: linear-gradient(to right, #e2a139, #f9d423);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-sub {
+  height: 500px;
+  width: 400px;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.coin-img {
+  height: 200px;
+  width: 200px;
+}
+
+.count-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cont {
+  margin: 20px;
+}
